@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*=============
+section1 start
+==============*/
+.section1{
+    width:1920px;
+    height:920px;
+    background-color: #F9FDFE;
+ }
+ .section1 .pad{
+    padding-top:28px;
+    padding-bottom:127px; 
+    /* background:rgb(127, 206, 205);  */
+    }
+.nav{
+    width:1410px;
+    height:64px;
+    /* background-color: #f1f5f6; */
+    margin:0 auto;/*For this margin:0 auto property ,the navdiv reamin along the center*/
+    display:flex;  /*because of using the display: flex is the nav div is divided into three parts along the width like logo,menu,buttonpart*/
+    position:relative; /*here position is used  for z-index*/
+    z-index:3;    
+}
+.section1 .pad .nav .logopart{
+    width:25%;
+    /* background-color:green; */
+    text-align:left;/*text-align:left(default system),right,center.why text-align works here?*/
+}
+.section1 .pad .nav .menupart{
+    width:50%;
+    height:100%;
+    padding-top:19px;
+    padding-bottom:20px;
+    position:relative;  /*here position is used  for z-index*/
+    z-index:99;
+   
+   
+}
+ .section1 .menupart .ulone{
+    list-style:none;   
+    display:flex; 
+    justify-content:space-between; 
+    /* column-gap: 48px;   */  /* column-gap: 48px;if there is used justify-content:space-between then no works column-gap  */
+   
+}
+.section1 .menupart .ulone li a{
+    text-decoration:none;
+    font-size:18px;
+    font-weight: 600px;
+    font-family: "Open Sans", serif;
+    color:#29313D;
+    transition:.5s;
+}
+.section1 .menupart .ulone li a:hover{  /*li te hover korle kaj hoy nah kano?*/
+     color:#8454F5;
+}
+.section1 .menupart .ulone li a i{
+    margin-left:4px;
+}
+.section1 .pad .nav .buttonpart{
+    width:25%;
+    height:100%;
+    display:flex;           /* display :flex works more not only along the width*/
+    justify-content:flex-end;
+    /* align-items:center;  no need as padding is used the below */
+}  
+  
+.section1 .pad .nav .buttonpart a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:600px;
+    padding:18px 28px;
+    font-family: "Nunito", serif;
+    border:1px solid transparent;
+    background-color:#8454F5;
+    border-radius:18px;
+    
+}
+.section1 .pad .nav .buttonpart a:hover{
+         background-color:white;
+         border-color:#8454F5;
+         color:#8454F5;
+}
+
+.banner{
+    width:1840px;
+    height:595px;
+    /* background:rgb(204, 236, 204); */
+    margin-left:4%;
+    position:relative;
+}
+.container{
+    display:flex;   
+}
+.bannermusk{
+    position:absolute;
+    top:-32%;
+    left:3%;
+    z-index:1; /*because of using z-index is the bannermusk part have taken full area of section1.so hover of menupart to active using z-index in buttonpart,menupart and here*/
+}
+.bannerright{
+    position:absolute;
+    top:7px;
+    right:0px;
+   
+}
+.bannerleft{
+    position:absolute;
+    top:7px;
+    left:0px;
+}
+.bannerleft{
+    position:absolute;
+    top:7px;
+    left:0px;
+}
+.bannerextra{
+    position:absolute;
+    top:86%;
+    left:57%;
+}
+.banner-top{
+    position:absolute;
+    top:-7%;
+    left:29%;
+}
+.section1 .banner h1{
+    color:#1D354F;
+    font-size:64px;
+    font-weight:800px;
+    font-family: "Open Sans", serif;
+    width:23%;
+    /* background-color:aqua; */
+    Position:absolute;
+    margin:4% 31%;
+}
+.section1 .banner p{
+    color:#29313D;
+    font-size:18px;
+    font-weight:200px;
+    font-family:"Nunito", serif;
+    width:23%;
+    /* background-color:aqua; */
+    Position:absolute;
+    margin:14% 31%;
+}
+.banner .buttonget a{
+     text-decoration:none;
+     color:white;
+     font-size:18px;
+     font-weight:600px;
+     padding:18px 28px;
+     font-family: "Nunito", serif;
+     border:1px solid transparent;
+     background-color:#8454F5;
+     border-radius:20px;
+     display:inline-block;
+     margin:19% 31%;
+}
+.banner .buttonget a:hover{
+    color:#8454F5;
+    background-color:green;
+}
+.ultwo{
+    list-style:none;
+    display:flex; /*display:flex use korer por o vertical barabor kaj kore flex-direction:column ar jonno*/
+    flex-direction:column;
+    line-height:40px;
+    background:white;
+    position:relative; /*position:relative use korle kono change hoy nah kintu position:relative use korle top and left kaj kore tai position use kora hoyese.very interesting*/
+    top:8px;
+    left:-1px; 
+    /* opacity:0;    */
+}
+.ultwo .academic{
+    position:relative;
+}
+.ultwo .ulthree{
+    list-style:none;
+    position:absolute;
+    top:18px;
+    left:106px;
+    background-color:white;
+}
+
+
+
+/*=================
+sectiion1 end
+===================*/
+
+
