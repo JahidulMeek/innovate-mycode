@@ -3,7 +3,7 @@
     padding:0;
 }
 /*=============
-section1 start
+section1 part start
 ==============*/
 .section1{
     width:1920px;
@@ -93,7 +93,7 @@ section1 start
     margin-left:4%;
     position:relative;
 }
-.container{
+ .banner.container{
     display:flex;   
 }
 .bannermusk{
@@ -186,11 +186,260 @@ section1 start
     left:106px;
     background-color:white;
 }
-
-
-
 /*=================
-sectiion1 end
+sectiion1  part end
 ===================*/
+/*=================
+service   part start
+===================*/
+.service{
+    width:1920px;
+     background-color:#f6f1f1;
+    padding-top:90px;
+    padding-bottom:110px;
+}
+.service .container{
+    width:1410px;
+     background-color:#FDFDFD;
+    margin:0 auto; 
+    /* padding-top:90px; */
+    /* padding-bottom:110px; */
+   
+}
+.service .container h2{
+    font-size:48px;
+    font-family: "Poppins", serif;
+    font-weight:600;
+    color:#29313D;
+    text-align:center;
+    padding-bottom:60px;
+   
+}
+.service .box{
+    width:1410px;
+    display:flex;
+    column-gap:30px;
+    
+}
+.service .service-card{
+    width:330px;
+    height:355px;
+     background-color:#FFFFFF;
+    /* padding:30px 20px;  kaj holo nah kano?*/
+    transition:.5s;
+}
+
+.service .service-card .image{
+    margin-left:20px;
+    margin-top:30px;
+}
+.service .service-card h3{
+    font-size:28px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    color:#29313D;
+    padding-top:24px;
+    padding-bottom:14px;
+    margin-left:20px;
+}
+.service .service-card p{
+    font-size:18px;
+    font-weight:400;
+    font-family:"Nunito", serif;
+    color:#29313D;
+    line-height:200%;
+    padding-bottom:24px;
+    width:315px;
+    margin-left:20px;
+}
+.service .service-card a{
+    font-size:18px;
+    font-weight:bold;
+    font-family:"Nunito", serif;
+    color:#29313D;
+    text-decoration:none;
+    margin-left:20px;
+    margin-bottom:30px;
+}
+.service .service-card:hover{
+    background-color:#FFFFFF;
+    box-shadow: 6px 9px 11px -3px rgba(0,0,0,0.52);
+    -moz-box-shadow: 6px 9px 11px -3px rgba(0,0,0,0.52);
+    box-shadow: 6px 9px 11px -3px rgba(0,0,0,0.52);
+    background-color:#FDFDFD;
+}
+/*=================
+service   part end
+===================*/
+/*=================
+app   part start
+===================*/
+.launch{
+    width:1920px;
+   
+    background-color:white;
+    padding:96px 393px 120px 255px;
+   
+}
+.launch .box{
+    width:1272px;
+   height:644px;
+    display:flex;
+    column-gap:60px;
+    /* background-color:red;   */
+    align-items: center;
+}
+.launch .left{
+    width:540px;
+    height:644px;
+    /* background-color:green; */
+    position:relative;
+}
+.launch .left .appbanner{
+    position:absolute;
+    top:24px;
+    left:0px;
+}
+.launch .left .app{
+    position:absolute;
+    top:0px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.launch .right{
+    width:672px;
+    height:557px;
+    background-color:white;
+    
+}
+.launch .right .let{
+    width:607px;
+    color:#29313D;
+    font-size:48px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    line-height: 140%;
+}
+.launch .right p{
+    width:443px;
+    font-size:18px;
+    color:#29313D;
+    font-weight:400;
+    font-family:"Nunito", serif;
+    line-height: 200%;
+    padding-top:20px;
+    padding-bottom:36px;
+}
+.launch .right .rightbottom{
+    width:290px;
+    height:295px;
+}
+.launch .right .rightbottom .care{
+    font-size:28px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color:#29313D;
+    line-height:140%;
+    padding-top:24px;
+    padding-bottom:14px;
+}
+.launch .right .rightbottom p{
+    width:290px;
+    font-size:18px;
+    font-weight:400;
+    font-family:"Nunito", serif;
+    color:#29313D;
+    line-height:200%;
+    padding-top:0px;
+    padding-bottom:24px;
+}
+.launch .right .rightbottom a{
+    text-decoration:none;
+    color:#29313D;
+}
+.launch .right .bottom{
+    display:flex;
+    column-gap: 30px;
+}
+/* creative app showcase part start */
+.creative{
+    width:1920px;
+    background-color:#F8FDFE;
+    padding:120px 255px;  
+ } 
+ .creative .containerc{
+    width:1410px;
+    /* background-color:rgb(135, 220, 15);    */
+}
+
+.creative .containerc h6{
+    font-size:48px;
+    font-weight: 600;
+    color:#29313D;
+    font-family: "Poppins", serif;
+    text-align:center;
+}
+.creative .containerc p{
+    font-size:18px;
+    font-weight:400;
+    font-family:"Nunito", serif;
+    color:#29313D;
+    padding-top:24px;
+    padding-bottom:60px;
+    text-align:center;
+
+}
+.creative .containerc .creativeimage{
+    width:1410px;
+    display:flex;
+    column-gap:30px;
+}
+.creative .containerc .creativeimage .image1{
+    width:330px;
+    height:715px;
+    background-color:#C4C4C4;
+    border-radius:20px; 
+    transition:.5s;
+}
+.creative .containerc .creativeimage .image1:hover{
+   
+    box-shadow: 9px 9px 8px -7px rgba(0,0,0,0.87);
+    -moz-box-shadow: 9px 9px 8px -7px rgba(0,0,0,0.87);
+    box-shadow: 9px 9px 8px -7px rgba(0,0,0,0.87); ;
+
+}
+.creative .containerc .creativebutton{
+    text-align:center;
+    padding-top:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
