@@ -83,7 +83,10 @@ section1 part start
 .section1 .pad .nav .buttonpart a:hover{
          background-color:white;
          border-color:#8454F5;
-         color:#8454F5;
+        
+        
+        
+         color:#0b0b0c;
 }
 
 .banner{
@@ -413,16 +416,218 @@ app   part start
     text-align:center;
     padding-top:60px;
 }
+/* creative app showcase part end  */
 
+/* global part start */
+.global{
+    width:1923px;
+    height:564px;
+    background-color:white;
+    position:relative;
+}
+.global .container{
+    width:1410px;
+    /* background-color:green; */
+    position:absolute; /* here position is used to activate margin-top. why*/
+    margin-left:255px;
+    margin-top:120px;
+}
 
+.global .container .box{
+    display:flex;
+    justify-content:space-between;
+}
+.global .container .box h1{
+    width:529px;
+    font-size:48px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    color:#29313D;
+}
+.global .container .box .viewbutton{
+    width:151px;
+    height:64px;
+    background-color:#8454F5;
+    border-radius:10px;
+   display:flex;
+   justify-content: center;
+   margin-top:40px;
+   
+}
+.global .container .box .viewbutton a{
+    text-decoration:none;
+    color:#29313D;
+    font-size:18px;
+    font-weight:400;
+    font-family: "Nunito", serif;
+    padding:20px 40px;
+}
+.global .container .boxtwo{
+    width:1410px;
+    height:300px;
+    padding-top:70px;
+    
+}
+.global .container .boxtwo .globalimage{
+    display:flex;
+    column-gap:60px;
+    justify-content:space-between;
+}
+/* =================
+Trail part start
+============ */
+.trail{
+    width:1920px;
+    /* height:600px; */
+   
+    padding-top:100px;
+    background-color:#F8FDFE;
+}
+.trail .container{
+    width:1410px;
+    height:550px;
+    background-color:#F8FDFE;
+    margin:0 auto;
+    position:relative; /*here position used for trialbox*/
+} 
+   
+.trail .container h2{
+    width:418px;
+    font-size:57px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    color:#29313D;
+    margin:0 auto;
+    
+    }
+.trail .container p{
+    width:406px;
+    font-size:18px;
+    font-weight:400;
+    font-family:"Nunito", serif;
+    color:#29313D;
+    margin:0 auto;
+    line-height:200%; 
+    padding-bottom:20px; 
+    /* position:relative;  */
+}
+.togglebar{
+    width:77px;
+    height:30px;
+    background-color:#DDDAFA;
+    border-radius:40px;
+    position:relative;
+    margin:0 auto;
+  margin-bottom:60px;  
+}
+.togglebar::after{
+    width:30px;
+    height:30px;
+    background-color:#6A55EA;
+    border-radius:50%;
+    position:absolute;
+    top:0;
+    right:0;
+    content:"";
+}
+.trail .trailbox{
+    display:flex;
+    column-gap:30px;
+    position:absolute;
+    top:310px;
+    left:0px;
 
-
-
-
-
-
-
-
+    
+}
+.trail .trailbox .tbox1{
+    width:450px;
+    background:white; 
+    transition:.5s; 
+   
+}
+.trail .trailbox .tbox1:hover{
+    -webkit-box-shadow: 4px 5px 8px -2px rgba(0,0,0,0.86);
+    -moz-box-shadow: 4px 5px 8px -2px rgba(0,0,0,0.86);
+    box-shadow: 4px 5px 8px -2px rgba(0,0,0,0.86);
+}
+.trail .trailbox .tbox1 h5{
+    width:100%;
+    font-size:20px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    color:#29313D;
+    text-align:center;
+    padding:20px 0px;
+    border-bottom:1px solid rgba(53, 41, 41,0.10);
+    position:relative;
+   
+}
+.trail .trailbox .tbox1 h5::after{
+    width:51px;
+    height:5px;
+    background-color:#6A55EA;
+    border-radius:30px;
+    position:absolute;
+    top:100%;
+    left:50%;
+    content:"";
+    transform:translateX(-50%);
+}
+.trail .trailbox .tbox1 .button500{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.trail .trailbox .tbox1 .button500 h3{
+    font-size:48px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    color:#29313D;
+    margin-left:28px;
+}
+.trail .trailbox .tbox1 .button500 .tbutton{
+    width:130px;
+    height:55px;
+    background-color:#6A55EA;
+    border-radius:20px;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   margin-right:28px;
+   margin-top:20px;
+}
+.trail .trailbox .tbox1 .button500 .tbutton a{
+    text-decoration:none;
+    font-size:18px;
+    font-weight:400;
+    color:#F9FDFE;   
+}
+.trail .trailbox .tbox1 ul{
+    list-style:none;
+    display: flex;
+    padding:16px 0px;       
+}
+.trail .trailbox .tbox1 .trialul li{
+    font-size:88px;
+    font-weight:400;
+    font-family:"Nunito", serif;
+    color:#29313D;
+}
+.trail .trailbox .tbox1 span i{
+    width:15px;
+    height:15px;
+    border:1px solid rgb(14, 14, 14);
+    border-radius:10%;
+    background-color:rgb(243, 233, 233);
+    margin-left:28px;
+    margin-right:8px;
+    display:flex;
+    justify-content: center;
+    align-items:center;   
+}
+/* =================
+Trail part end
+============ */
 
 
 
